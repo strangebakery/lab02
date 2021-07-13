@@ -1,24 +1,24 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.2.313/W64 for ARM                  12/Jul/2021  22:52:05
+# IAR ELF Linker V9.10.2.313/W64 for ARM                  12/Jul/2021  23:31:18
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
 #        C:\Users\User\Documents\UTFPR\Micro
-#        1\LAB\lab2\Exerc_11\Debug\Exe\Exerc_11.out
+#        1\LAB\lab02\Exerc_11\Debug\Exe\Exerc_11.out
 #    Map file     =
 #        C:\Users\User\Documents\UTFPR\Micro
-#        1\LAB\lab2\Exerc_11\Debug\List\Exerc_11.map
+#        1\LAB\lab02\Exerc_11\Debug\List\Exerc_11.map
 #    Command line =
 #        -f "C:\Users\User\Documents\UTFPR\Micro
-#        1\LAB\lab2\Exerc_11\Debug\Exe\Exerc_11.out.rsp"
+#        1\LAB\lab02\Exerc_11\Debug\Exe\Exerc_11.out.rsp"
 #        ("C:\Users\User\Documents\UTFPR\Micro
-#        1\LAB\lab2\Exerc_11\Debug\Obj\Exerc_11.o" --no_out_extension -o
+#        1\LAB\lab02\Exerc_11\Debug\Obj\Exerc_11.o" --no_out_extension -o
 #        "C:\Users\User\Documents\UTFPR\Micro
-#        1\LAB\lab2\Exerc_11\Debug\Exe\Exerc_11.out" --redirect
+#        1\LAB\lab02\Exerc_11\Debug\Exe\Exerc_11.out" --redirect
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
 #        "C:\Users\User\Documents\UTFPR\Micro
-#        1\LAB\lab2\Exerc_11\Debug\List\Exerc_11.map" --config "D:\Program
+#        1\LAB\lab02\Exerc_11\Debug\List\Exerc_11.map" --config "D:\Program
 #        Files\IAR Systems\Embedded Workbench
 #        9.0\arm\CONFIG\generic_cortex.icf" --semihosting --no_library_search
 #        --entry __iar_program_start --vfe --text_out locale)
@@ -77,7 +77,7 @@ command line/config:
     --------------------------------
     Total:
 
-C:\Users\User\Documents\UTFPR\Micro 1\LAB\lab2\Exerc_11\Debug\Obj: [1]
+C:\Users\User\Documents\UTFPR\Micro 1\LAB\lab02\Exerc_11\Debug\Obj: [1]
     Exerc_11.o          120
     --------------------------------
     Total:              120
@@ -99,7 +99,7 @@ __iar_program_start         0x41        Code  Gb  Exerc_11.o [1]
 __vector_table               0x0        Data  Gb  Exerc_11.o [1]
 
 
-[1] = C:\Users\User\Documents\UTFPR\Micro 1\LAB\lab2\Exerc_11\Debug\Obj
+[1] = C:\Users\User\Documents\UTFPR\Micro 1\LAB\lab02\Exerc_11\Debug\Obj
 
     120 bytes of readonly  code memory
   1'024 bytes of readwrite data memory

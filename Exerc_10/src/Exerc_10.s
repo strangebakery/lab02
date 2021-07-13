@@ -9,7 +9,10 @@
         THUMB
         
 __iar_program_start
-
+       
+main    BL      Mul16b
+nada:   B       nada
+        
 Mul16b: MOV     R0, #3  ;fator a
         MOV     R1, #4  ;fator b
         MOV     R2, #0  ;produto a*b
@@ -19,9 +22,6 @@ soma:   CBZ     R3, fim
         SUB     R3, R3, #1
         B       soma
 fim:    BX      LR
-        
-main    BL      Mul16b       
-        B       main
 
         ;; Forward declaration of sections.
         SECTION CSTACK:DATA:NOROOT(3)

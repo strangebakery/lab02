@@ -9,6 +9,10 @@
         THUMB
         
 __iar_program_start
+       
+main    BL      factr
+nada    B       nada
+
 
         ;a ideia aqui é converter um produtório (a operação de fatorial) em um somatório...
 factr:  MOV     R0, #6 ;valor de entrada
@@ -28,9 +32,6 @@ somain: ADD     R3, R3, R5 ;soma interna: soma (fator seguinte)-vezes o fator an
           BNE   somaex
         MOV     R0, R3
         BX      LR
-        
-main    BL      factr
-        B       main
 
         ;; Forward declaration of sections.
         SECTION CSTACK:DATA:NOROOT(3)
